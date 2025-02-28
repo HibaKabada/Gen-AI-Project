@@ -10,8 +10,7 @@ Ce projet est une application web qui permet de gérer des documents, de les sto
 4. [Utilisation](#utilisation)
 5. [Métriques et Évaluation](#métriques-et-évaluation)
 6. [Bonnes Pratiques](#bonnes-pratiques)
-7. [Contribuer](#contribuer)
-8. [Licence](#licence)
+7. [Licence](#licence)
 
 ## Prérequis
 
@@ -53,5 +52,53 @@ Ce projet est une application web qui permet de gérer des documents, de les sto
    - __api.py__ : Expose les endpoints API pour interagir avec la base de données et le chatbot.
    - __home.py__ : Interface Streamlit pour interagir avec l'application.
    - __eval.py__ : Script pour tester le chatbot et générer des métriques d'évaluation (BLEU score, ROUGE score, etc.).
-   - feedback.xlsx : Fichier Excel pour stocker les feedbacks utilisateurs.
-   - dashboard/ : Dossier contenant les éléments du tableau de bord.
+   - __feedback.xlsx__ : Fichier Excel pour stocker les feedbacks utilisateurs.
+   - __dashboard/__ : Dossier contenant les éléments du tableau de bord.
+
+## Utilisation
+
+1. **Création d'un environnement virtuel**
+
+   Pour lancer l'interface utilisateur, exécutez :
+   
+   ```bash
+   streamlit run home.py
+   ```
+   L'interface permet de :
+   - __Rechercher des documents.__ 
+   - __Interagir avec le chatbot.__ 
+   - __Décrire des images.__ 
+   - __Soumettre des feedbacks.__
+
+
+2. **API Endpoints**
+
+   Les endpoints API exposés dans api.py permettent de :
+   - __Rechercher des documents.__ 
+   - __Interagir avec le chatbot.__ 
+   - __Stocker des feedbacks.__ 
+4. **Feedback et Tableau de Bord**
+
+   Les feedbacks utilisateurs sont stockés dans feedback.xlsx.
+   Un tableau de bord est généré pour visualiser les feedbacks et interagir avec le chatbot.
+
+## Métriques et Évaluation
+
+  Le script eval.py permet de tester le chatbot en utilisant des métriques comme le BLEU score et le ROUGE score. 
+  Les résultats sont sauvegardés dans un tableau de bord, et les questions/réponses utilisées pour les tests sont enregistrées pour une analyse ultérieure.
+  Pour exécuter l'évaluation :
+  ```bash
+   python eval.py
+   ```
+## Bonnes Pratiques
+
+Nous avons utilisé Flake8 pour nous assurer que le code respecte les bonnes pratiques de développement. 
+Pour lancer Flake8 :
+```bash
+flake8 .
+```
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+N'hésitez pas à explorer le code et à nous faire part de vos retours !
