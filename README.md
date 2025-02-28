@@ -1,6 +1,7 @@
 # Projet : Gestion de Documents et Chatbot avec Streamlit
 
-Ce projet est une application web qui permet de gérer des documents, de les stocker dans une base de données Cloud SQL, et de mettre en œuvre une logique de recherche (retrieval) pour interagir avec ces documents via un chatbot. L'interface utilisateur est développée avec Streamlit, et l'application expose des endpoints API pour gérer les interactions avec la base de données et le chatbot. Enfin, une partie de l'interface permet de gérer la description d'images et de collecter des feedbacks utilisateurs, qui sont stockés dans un fichier Excel pour générer un tableau de bord interactif.
+Ce projet est une application web qui met en œuvre un système RAG (Retrieval-Augmented Generation) en utilisant l'API de Gemini pour générer des réponses contextuelles à partir de documents stockés dans une table Cloud SQL. L'interface utilisateur est développée avec Streamlit, et l'application expose des endpoints API pour gérer les interactions avec la base de données, le modèle Gemini, et le chatbot. 
+Une partie de l'interface permet également de gérer la description d'images et de collecter des feedbacks utilisateurs, qui sont stockés dans un fichier Excel pour générer un tableau de bord interactif.
 
 ## Table des matières
 
