@@ -3,6 +3,8 @@
 Ce projet est une application web qui met en œuvre un système RAG (Retrieval-Augmented Generation) en utilisant l'API de Gemini pour générer des réponses contextuelles à partir de documents stockés dans une table Cloud SQL. L'interface utilisateur est développée avec Streamlit, et l'application expose des endpoints API pour gérer les interactions avec la base de données, le modèle Gemini, et le chatbot. 
 Une partie de l'interface permet également de gérer la description d'images et de collecter des feedbacks utilisateurs, qui sont stockés dans un fichier Excel pour générer un tableau de bord interactif.
 
+## Lien vers l'application déployée: https://ac-hk-projet-streamlit-1021317796643.europe-west1.run.app
+
 ## Table des matières
 
 1. [Prérequis](#prérequis)
