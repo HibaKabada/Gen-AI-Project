@@ -13,7 +13,8 @@ https://ac-hk-projet-streamlit-1021317796643.europe-west1.run.app
 4. [Utilisation](#utilisation)
 5. [Métriques et Évaluation](#métriques-et-évaluation)
 6. [Bonnes Pratiques](#bonnes-pratiques)
-7. [Licence](#licence)
+7. [Captures de notre application](#captures-de-notre-application)
+8. [Licence](#licence)
 
 ## Prérequis
 
@@ -100,6 +101,17 @@ Pour lancer Flake8 :
 ```bash
 flake8 .
 ```
+## Captures de notre application
+![ESG1](https://github.com/user-attachments/assets/5244df60-cf9c-43da-8f8e-3f12ec726ea6)
+
+![ESG2](https://github.com/user-attachments/assets/db6d217e-1e0a-4e95-8dc4-b7d636a0e962)
+
+![ESG3](https://github.com/user-attachments/assets/f5ca17f8-d92e-46f4-b676-2375ec3c03ae)
+
+![feedback_cap](https://github.com/user-attachments/assets/f501311f-087e-4344-8425-185695e9ded3)
+
+![feedback3](https://github.com/user-attachments/assets/eca345ed-977a-45b6-bf97-f8a5142a39d3)
+
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
